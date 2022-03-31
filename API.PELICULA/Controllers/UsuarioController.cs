@@ -15,8 +15,11 @@ using System.Threading.Tasks;
 
 namespace API.PELICULA.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
+    [ApiExplorerSettings(GroupName = "ApiPeliculasUsuarios")]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public class UsuarioController : ControllerBase
     {
         private readonly IServicioUsuario servicioUsuario;
@@ -50,6 +53,7 @@ namespace API.PELICULA.Controllers
         /// </summary>
         /// <param name="usuarioModelo">Datos para el registro del nuevo usuario</param>
         /// <returns></returns>
+        [AllowAnonymous]
         [HttpPost]
         public IActionResult Registro(UsuarioModelo usuarioModelo)
         {

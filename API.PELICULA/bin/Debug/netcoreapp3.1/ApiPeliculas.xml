@@ -9,6 +9,7 @@
             Obtener todas las categorías
             </summary>
             <returns></returns>
+            
         </member>
         <member name="M:API.PELICULA.Controllers.CategoriaController.Get(System.String)">
             <summary>

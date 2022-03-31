@@ -1,6 +1,7 @@
 ﻿using API.ENTIDADES;
 using API.ENTIDADES.Modelos;
 using API.SERVICIOS.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -11,8 +12,11 @@ using System.Threading.Tasks;
 
 namespace API.PELICULA.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
+    [ApiExplorerSettings(GroupName = "ApiPeliculasCategorias")]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public class PeliculasController : ControllerBase
     {
         private readonly IServicioPelicula servicioPelicula;
@@ -27,6 +31,7 @@ namespace API.PELICULA.Controllers
         /// Obtener todas las peliculas 
         /// </summary>
         /// <returns></returns>
+        [AllowAnonymous]
         [HttpGet]
         public async Task<ActionResult<ResultadoOperacion<IEnumerable<PeliculaModelo>>>> Get()
         {
@@ -37,6 +42,7 @@ namespace API.PELICULA.Controllers
         /// </summary>
         /// <param name="clave">Clave para identificar la película deseada</param>
         /// <returns></returns>
+        [AllowAnonymous]
         [HttpGet("{clave}")]
         public async Task<ActionResult<ResultadoOperacion>> Get(string clave)
         {
@@ -47,6 +53,7 @@ namespace API.PELICULA.Controllers
         /// </summary>
         /// <param name="clave">La categoría que se desea</param>
         /// <returns></returns>
+        [AllowAnonymous]
         [HttpGet("Categoria/{clave}")]
         public async Task<ActionResult<ResultadoOperacion>> GetC(string clave)
         {
