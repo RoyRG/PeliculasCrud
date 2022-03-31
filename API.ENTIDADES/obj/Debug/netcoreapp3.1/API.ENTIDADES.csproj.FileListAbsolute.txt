@@ -1,0 +1,13 @@
+C:\Users\QUALITY\Desktop\API.PELICULA\API.ENTIDADES\bin\Debug\netcoreapp3.1\API.ENTIDADES.deps.json
+C:\Users\QUALITY\Desktop\API.PELICULA\API.ENTIDADES\bin\Debug\netcoreapp3.1\API.ENTIDADES.runtimeconfig.json
+C:\Users\QUALITY\Desktop\API.PELICULA\API.ENTIDADES\bin\Debug\netcoreapp3.1\API.ENTIDADES.runtimeconfig.dev.json
+C:\Users\QUALITY\Desktop\API.PELICULA\API.ENTIDADES\bin\Debug\netcoreapp3.1\API.ENTIDADES.dll
+C:\Users\QUALITY\Desktop\API.PELICULA\API.ENTIDADES\bin\Debug\netcoreapp3.1\API.ENTIDADES.pdb
+C:\Users\QUALITY\Desktop\API.PELICULA\API.ENTIDADES\obj\Debug\netcoreapp3.1\API.ENTIDADES.csproj.AssemblyReference.cache
+C:\Users\QUALITY\Desktop\API.PELICULA\API.ENTIDADES\obj\Debug\netcoreapp3.1\API.ENTIDADES.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\QUALITY\Desktop\API.PELICULA\API.ENTIDADES\obj\Debug\netcoreapp3.1\API.ENTIDADES.AssemblyInfoInputs.cache
+C:\Users\QUALITY\Desktop\API.PELICULA\API.ENTIDADES\obj\Debug\netcoreapp3.1\API.ENTIDADES.AssemblyInfo.cs
+C:\Users\QUALITY\Desktop\API.PELICULA\API.ENTIDADES\obj\Debug\netcoreapp3.1\API.ENTIDADES.csproj.CoreCompileInputs.cache
+C:\Users\QUALITY\Desktop\API.PELICULA\API.ENTIDADES\obj\Debug\netcoreapp3.1\API.ENTIDADES.dll
+C:\Users\QUALITY\Desktop\API.PELICULA\API.ENTIDADES\obj\Debug\netcoreapp3.1\API.ENTIDADES.pdb
+C:\Users\QUALITY\Desktop\API.PELICULA\API.ENTIDADES\obj\Debug\netcoreapp3.1\API.ENTIDADES.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\QUALITY\Desktop\API.PELICULA\API.REPOSITORIO\bin\Debug\netcoreapp3.1\API.REPOSITORIO.deps.json
+C:\Users\QUALITY\Desktop\API.PELICULA\API.REPOSITORIO\bin\Debug\netcoreapp3.1\API.REPOSITORIO.runtimeconfig.json
+C:\Users\QUALITY\Desktop\API.PELICULA\API.REPOSITORIO\bin\Debug\netcoreapp3.1\API.REPOSITORIO.runtimeconfig.dev.json
+C:\Users\QUALITY\Desktop\API.PELICULA\API.REPOSITORIO\bin\Debug\netcoreapp3.1\API.REPOSITORIO.dll
+C:\Users\QUALITY\Desktop\API.PELICULA\API.REPOSITORIO\bin\Debug\netcoreapp3.1\API.REPOSITORIO.pdb
+C:\Users\QUALITY\Desktop\API.PELICULA\API.REPOSITORIO\obj\Debug\netcoreapp3.1\API.REPOSITORIO.csproj.AssemblyReference.cache
+C:\Users\QUALITY\Desktop\API.PELICULA\API.REPOSITORIO\obj\Debug\netcoreapp3.1\API.REPOSITORIO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\QUALITY\Desktop\API.PELICULA\API.REPOSITORIO\obj\Debug\netcoreapp3.1\API.REPOSITORIO.AssemblyInfoInputs.cache
+C:\Users\QUALITY\Desktop\API.PELICULA\API.REPOSITORIO\obj\Debug\netcoreapp3.1\API.REPOSITORIO.AssemblyInfo.cs
+C:\Users\QUALITY\Desktop\API.PELICULA\API.REPOSITORIO\obj\Debug\netcoreapp3.1\API.REPOSITORIO.csproj.CoreCompileInputs.cache
+C:\Users\QUALITY\Desktop\API.PELICULA\API.REPOSITORIO\obj\Debug\netcoreapp3.1\API.REPOSITORIO.dll
+C:\Users\QUALITY\Desktop\API.PELICULA\API.REPOSITORIO\obj\Debug\netcoreapp3.1\API.REPOSITORIO.pdb
+C:\Users\QUALITY\Desktop\API.PELICULA\API.REPOSITORIO\obj\Debug\netcoreapp3.1\API.REPOSITORIO.genruntimeconfig.cache

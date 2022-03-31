@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API.PELICULA</name>
+    </assembly>
+    <members>
+        <member name="M:API.PELICULA.Controllers.CategoriaController.Get">
+            <summary>
+            Obtener todas las categorías
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.PELICULA.Controllers.CategoriaController.Get(System.String)">
+            <summary>
+            Obtener una categoría individual
+            </summary>
+            <param name="clave"> Clave es el parametro por el cual obtendremos un solo elemento</param>
+            <returns></returns>
+        </member>
+        <member name="M:API.PELICULA.Controllers.CategoriaController.Delete(System.String)">
+            <summary>
+            Eliminar de manera lógica un elemento
+            </summary>
+            <param name="clave"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.PELICULA.Controllers.CategoriaController.Put(API.ENTIDADES.Modelos.CategoriaModelo)">
+            <summary>
+            Modificar una Categoría 
+            </summary>
+            <param name="categoriaModelo">Clave es el parametro por el cual obtendremos un solo elemento</param>
+            <returns></returns>
+        </member>
+        <member name="M:API.PELICULA.Controllers.CategoriaController.Post(API.ENTIDADES.Modelos.CategoriaModelo)">
+            <summary>
+            Crear una Categoría 
+            </summary>
+            <param name="categoriaModelo">Elementos para la creacion de una Categoría</param>
+            <returns></returns>
+        </member>
+        <member name="M:API.PELICULA.Controllers.PeliculasController.Get">
+            <summary>
+            Obtener todas las peliculas 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.PELICULA.Controllers.PeliculasController.Get(System.String)">
+            <summary>
+            Obtener una película por su clave 
+            </summary>
+            <param name="clave">Clave para identificar la película deseada</param>
+            <returns></returns>
+        </member>
+        <member name="M:API.PELICULA.Controllers.PeliculasController.GetC(System.String)">
+            <summary>
+            Obtenemos las películas por su categoría
+            </summary>
+            <param name="clave">La categoría que se desea</param>
+            <returns></returns>
+        </member>
+        <member name="M:API.PELICULA.Controllers.PeliculasController.Delete(System.String)">
+            <summary>
+            Eliminar una película de manera lógica
+            </summary>
+            <param name="clave">Clave para identificar la película que se desea eliminar</param>
+            <returns></returns>
+        </member>
+        <member name="M:API.PELICULA.Controllers.PeliculasController.Put(API.ENTIDADES.Modelos.PeliculaModelo)">
+            <summary>
+            Modificar una plícula
+            </summary>
+            <param name="peliculaModelo">Id y datos a modificar de una película</param>
+            <returns></returns>
+        </member>
+        <member name="M:API.PELICULA.Controllers.PeliculasController.Post(API.ENTIDADES.Modelos.PeliculaModelo)">
+            <summary>
+            Crear una nueva película
+            </summary>
+            <param name="peliculaModelo">Datos para registrar la película</param>
+            <returns></returns>
+        </member>
+        <member name="M:API.PELICULA.Controllers.PeliculasController.BusquedaPelicula(System.String)">
+            <summary>
+            Busqueda de una película por su nombre
+            </summary>
+            <param name="nombre">Nombre de la película que se quiere búscar</param>
+            <returns></returns>
+        </member>
+        <member name="M:API.PELICULA.Controllers.UsuarioController.Get">
+            <summary>
+            Obtener los usuarios 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.PELICULA.Controllers.UsuarioController.Get(System.String)">
+            <summary>
+            Obtener a un usuario 
+            </summary>
+            <param name="clave">Clave para distinguir el usuario deseado</param>
+            <returns></returns>
+        </member>
+        <member name="M:API.PELICULA.Controllers.UsuarioController.Registro(API.ENTIDADES.Modelos.UsuarioModelo)">
+            <summary>
+            Registro de un nuevo usuario 
+            </summary>
+            <param name="usuarioModelo">Datos para el registro del nuevo usuario</param>
+            <returns></returns>
+        </member>
+        <member name="M:API.PELICULA.Controllers.UsuarioController.Login(API.ENTIDADES.Modelos.UsuarioModelo)">
+            <summary>
+            Autenticación de los datos del usuario
+            </summary>
+            <param name="usuarioModelo">Nombre y contraseña</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
