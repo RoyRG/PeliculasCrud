@@ -31,7 +31,8 @@ namespace API.PELICULA
         {
             services.AddControllers();
             services.RegistrarServicios(Configuration);
-            
+            services.AddCors();
+
 
         }
 
@@ -61,14 +62,14 @@ namespace API.PELICULA
                 options.SwaggerEndpoint("/swagger/ApiPeliculas/swagger.json", "API Películas");
                 options.SwaggerEndpoint("/swagger/ApiPeliculasUsuarios/swagger.json", "API Usuarios Películas");
 
-                /*Para la publicaci�n en IIS descomentar estas l�neas y comentar las de arriba
-                options.SwaggerEndpoint("/apiPeliculas/swagger/ApiPeliculasCategorias/swagger.json", "API Categor�as Pel�culas");
-                options.SwaggerEndpoint("/apiPeliculas/swagger/ApiPeliculas/swagger.json", "API Pel�culas");
-                options.SwaggerEndpoint("/apiPeliculas/swagger/ApiPeliculasUsuarios/swagger.json", "API Usuarios Pel�culas");
-                */
+                ////Para la publicaci�n en IIS descomentar estas l�neas y comentar las de arriba
+                //options.SwaggerEndpoint("/apiPeliculas/swagger/ApiPeliculasCategorias/swagger.json", "API Categor�as Pel�culas");
+                //options.SwaggerEndpoint("/apiPeliculas/swagger/ApiPeliculas/swagger.json", "API Pel�culas");
+                //options.SwaggerEndpoint("/apiPeliculas/swagger/ApiPeliculasUsuarios/swagger.json", "API Usuarios Pel�culas");
+
                 options.RoutePrefix = "";
             });
-
+            app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
         }
     }
 }
